@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "Permanent Marker";
+  src: url(./fonts/PermanentMarker.ttf) format("truetype"),
+    url(./fonts/PermanentMarker.woff) format("woff");
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+
+* {
+  box-sizing: border-box;
+ 
+
+  
+}
+.text-header {
+  font-size: 140px;
+  line-height: 140px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  text-shadow: #fc0 1px 0 10px;
+  margin: auto;
+  font-family: "Permanent Marker", cursive;
+  max-width: 1240px;
+
+}
+.page {
+  font-family: "Inter", sans-serif;
+  background: #eeeeee;
+}
+
+.header {
+  height: 40vh;
+  width: 100%;
+  text-transform: uppercase;
+  background-image: url(/images/3.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+/* add a CSS rule for the page title here */
+
+.overlay {
+  
+  height: 100%;
+  background-color: rgba(26, 203, 91, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 790px;
+  margin: 100px auto 50px;
+
+
+  /* add missing declarations */
+}
+
+/* add CSS rules for cards and their content here */
+
+.footer-text {
+  color:#ffffff;
+  margin:auto;
+  font-size: 24px;
+  
+}
+
+.box-header {
+  font-size: 40px;
+  font-weight: 100;
+  height: 60px;
+  width: auto;
+
+  color:white;
+  
+}
+.text-box {
+  color:white;
+  margin-top: 59px;
+  width: 200px;
+  
+  margin-left: 5px;;
+ 
+}
+.box-img {
+
+}
+.card {
+  width: 350px;
+  margin-bottom: 60px;
+  padding: 45px 45px 70px;
+  background: #ffffff;
+  box-shadow: 4px 4px 5px rgba(0, 132, 255, 0.4);
+}
+
+#first {
+
+}
+#first img {
+  /* height: 346px; */
+}
+#second {
+
+}
+#second img {
+  /* height: 173px; */
+}
+#third {
+
+}
+#forth {
+ 
+
+}
+
+.card-image {
+  width:100%;
+  margin-bottom:25px;
+  height: 200px;
+  object-fit: contain;
+}
+.card-title {
+  font-size:24px;
+  font-family: "Permanent Marker", cursive;
+  margin-bottom:10px;
+}
+.card-text {
+  font-size:16px;
+  width: 280px;
+}
+.footer {
+  display: flex;
+  min-height: 300px;
+  background-color: #000000;
+  
+}
+/* add a CSS rule for the footer signature */
